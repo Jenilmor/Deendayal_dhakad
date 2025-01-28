@@ -1,4 +1,4 @@
-import re
+frimport re
 import os
 from os import environ, getenv
 from Script import script
@@ -54,7 +54,7 @@ MULTI_FSUB = [int(channel_id) for channel_id in environ.get('AUTH_CHANNEL', '-10
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sunil664023:eieqy2jRVIbzD29r@cluster0.ezot5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Deendayal_files')
